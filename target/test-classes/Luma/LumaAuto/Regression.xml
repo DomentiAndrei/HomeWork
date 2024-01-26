@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Suite" >
+
+
+
+<test  name="TestNR1">
+		<classes>
+			<class name="Luma.LumaAuto.Tests.WomenItemsTests.BuysTeesTest"/>
+		</classes>
+</test> 
+<test  name="TestNR2">	
+		<classes>
+			<class name="Luma.LumaAuto.Tests.ChangePasswordTest"/>
+	</classes>
+</test> 
+<test  name="TestNR3">	
+		<classes>
+			<class name="Luma.LumaAuto.Tests.LogInTest"/>
+		</classes>
+</test> 
+ <test  name="TestNR4">
+		<classes>
+			<class name="Luma.LumaAuto.Tests.RegistrationNegativeTest"/>
+		</classes>
+</test> 
+<test  name="TestNR5">
+		<classes>
+			<class name="Luma.LumaAuto.Tests.RegistrationTest"/>
+		</classes>
+</test> 
+</suite> 

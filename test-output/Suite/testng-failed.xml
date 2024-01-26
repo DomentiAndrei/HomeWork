@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="TestNR1">
+    <classes>
+      <class name="Luma.LumaAuto.Tests.WomenItemsTests.BuysTeesTest"/>
+    </classes>
+  </test> <!-- TestNR1 -->
+  <test name="TestNR2">
+    <classes>
+      <class name="Luma.LumaAuto.Tests.ChangePasswordTest"/>
+    </classes>
+  </test> <!-- TestNR2 -->
+  <test name="TestNR3">
+    <classes>
+      <class name="Luma.LumaAuto.Tests.LogInTest"/>
+    </classes>
+  </test> <!-- TestNR3 -->
+  <test name="TestNR4">
+    <classes>
+      <class name="Luma.LumaAuto.Tests.RegistrationNegativeTest"/>
+    </classes>
+  </test> <!-- TestNR4 -->
+  <test name="TestNR5">
+    <classes>
+      <class name="Luma.LumaAuto.Tests.RegistrationTest"/>
+    </classes>
+  </test> <!-- TestNR5 -->
+  <test parallel="methods" name="TestNR2(failed)">
+    <classes>
+      <class name="Luma.LumaAuto.Tests.RegistrationNegativeTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.RegistrationNegativeTest -->
+      <class name="Luma.LumaAuto.Tests.RegistrationTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.RegistrationTest -->
+      <class name="Luma.LumaAuto.Tests.ChangePasswordTest">
+        <methods>
+          <include name="changePassSteps"/>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.ChangePasswordTest -->
+      <class name="Luma.LumaAuto.Tests.WomenItemsTests.BuysTeesTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.WomenItemsTests.BuysTeesTest -->
+      <class name="Luma.LumaAuto.Tests.LogInTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.LogInTest -->
+    </classes>
+  </test> <!-- TestNR2(failed) -->
+  <test parallel="methods" name="TestNR3(failed)">
+    <classes>
+      <class name="Luma.LumaAuto.Tests.RegistrationNegativeTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.RegistrationNegativeTest -->
+      <class name="Luma.LumaAuto.Tests.RegistrationTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.RegistrationTest -->
+      <class name="Luma.LumaAuto.Tests.LogInTest">
+        <methods>
+          <include name="stepsToRep"/>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.LogInTest -->
+      <class name="Luma.LumaAuto.Tests.WomenItemsTests.BuysTeesTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.WomenItemsTests.BuysTeesTest -->
+      <class name="Luma.LumaAuto.Tests.ChangePasswordTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.ChangePasswordTest -->
+    </classes>
+  </test> <!-- TestNR3(failed) -->
+  <test parallel="methods" name="TestNR4(failed)">
+    <classes>
+      <class name="Luma.LumaAuto.Tests.RegistrationNegativeTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsToRegNegativeCase"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.RegistrationNegativeTest -->
+      <class name="Luma.LumaAuto.Tests.RegistrationTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.RegistrationTest -->
+      <class name="Luma.LumaAuto.Tests.WomenItemsTests.BuysTeesTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.WomenItemsTests.BuysTeesTest -->
+      <class name="Luma.LumaAuto.Tests.ChangePasswordTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.ChangePasswordTest -->
+      <class name="Luma.LumaAuto.Tests.LogInTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.LogInTest -->
+    </classes>
+  </test> <!-- TestNR4(failed) -->
+  <test parallel="methods" name="TestNR5(failed)">
+    <classes>
+      <class name="Luma.LumaAuto.Tests.RegistrationNegativeTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.RegistrationNegativeTest -->
+      <class name="Luma.LumaAuto.Tests.RegistrationTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsToRegNewUser"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.RegistrationTest -->
+      <class name="Luma.LumaAuto.Tests.WomenItemsTests.BuysTeesTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.WomenItemsTests.BuysTeesTest -->
+      <class name="Luma.LumaAuto.Tests.ChangePasswordTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.ChangePasswordTest -->
+      <class name="Luma.LumaAuto.Tests.LogInTest">
+        <methods>
+          <include name="stepsBefore"/>
+          <include name="stepsAfter"/>
+        </methods>
+      </class> <!-- Luma.LumaAuto.Tests.LogInTest -->
+    </classes>
+  </test> <!-- TestNR5(failed) -->
+</suite> <!-- Failed suite [Suite] -->
